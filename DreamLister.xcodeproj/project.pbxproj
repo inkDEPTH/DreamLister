@@ -37,6 +37,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		59162EEC1E66C97600F8663C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				59CA9F891E64BCA900BD7D54 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		59162EED1E66C97C00F8663C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		59162EEE1E66C98100F8663C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		59CA9F7B1E64BCA900BD7D54 = {
 			isa = PBXGroup;
 			children = (
@@ -56,11 +78,13 @@
 		59CA9F861E64BCA900BD7D54 /* DreamLister */ = {
 			isa = PBXGroup;
 			children = (
+				59162EEE1E66C98100F8663C /* Model */,
+				59162EED1E66C97C00F8663C /* View */,
+				59162EEC1E66C97600F8663C /* Controller */,
 				59CA9F871E64BCA900BD7D54 /* AppDelegate.swift */,
-				59CA9F891E64BCA900BD7D54 /* ViewController.swift */,
 				59CA9F8B1E64BCA900BD7D54 /* Main.storyboard */,
-				59CA9F911E64BCA900BD7D54 /* Assets.xcassets */,
 				59CA9F931E64BCA900BD7D54 /* LaunchScreen.storyboard */,
+				59CA9F911E64BCA900BD7D54 /* Assets.xcassets */,
 				59CA9F961E64BCA900BD7D54 /* Info.plist */,
 				59CA9F8E1E64BCA900BD7D54 /* DreamLister.xcdatamodeld */,
 			);
@@ -304,6 +328,7 @@
 				59CA9F9B1E64BCA900BD7D54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
